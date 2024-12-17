@@ -1,0 +1,768 @@
+# Copyright (C) 2024 Plugin Envision
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Swipe Slider 0.14\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/swipe-slider-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-13T10:04:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: swipe-slider\n"
+
+#. Plugin Name of the plugin
+msgid "Swipe Slider"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pluginenvision.com/plugins/swipe-slider"
+msgstr ""
+
+#. Description of the plugin
+msgid "Make dynamic slider with solid, gradient, or image background."
+msgstr ""
+
+#. Author of the plugin
+msgid "Plugin Envision"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginenvision.com"
+msgstr ""
+
+#: build/editor.js:1
+msgid "GENERAL"
+msgstr ""
+
+#: build/editor.js:1
+msgid "OPTIONS"
+msgstr ""
+
+#: build/editor.js:1
+msgid "STYLE"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Previous Slide"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Next Slide"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Gradient"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Image"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Left to Right"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Right to Left"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Vertical"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Disabled"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Loop"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rewind"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slide"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Fade"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Cube"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Flip"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Coverflow"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Cards"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Creative"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Default"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 1"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 2"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 3"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 4"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 5"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset 6"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Ease"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Ease In"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Ease Out"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Ease In Out"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Linear"
+msgstr ""
+
+#: build/editor.js:1
+msgid "chevron"
+msgstr ""
+
+#: build/editor.js:1
+msgid "angle"
+msgstr ""
+
+#: build/editor.js:1
+msgid "angles"
+msgstr ""
+
+#: build/editor.js:1
+msgid "arrow"
+msgstr ""
+
+#: build/editor.js:1
+msgid "arrowLong"
+msgstr ""
+
+#: build/editor.js:1
+msgid "circleArrowFill"
+msgstr ""
+
+#: build/editor.js:1
+msgid "circleFill"
+msgstr ""
+
+#: build/editor.js:1
+msgid "circle"
+msgstr ""
+
+#: build/editor.js:1
+msgid "long"
+msgstr ""
+
+#: build/editor.js:1
+msgid "caret"
+msgstr ""
+
+#: build/editor.js:1
+msgid "squareCaret"
+msgstr ""
+
+#: build/editor.js:1
+msgid "squareCaretFill"
+msgstr ""
+
+#: build/editor.js:1
+msgid "circleChevron"
+msgstr ""
+
+#: build/editor.js:1
+msgid "play"
+msgstr ""
+
+#: build/editor.js:1
+msgid "forward"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Inside"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Outside"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Start(Top/Left)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Center"
+msgstr ""
+
+#: build/editor.js:1
+msgid "End(Bottom/Right)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Bullets"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Background"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Number"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Progressbar"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Fraction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Top"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Right"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Bottom"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Left"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Manage Slides"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Background:"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Add Content"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Update Content"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content may not be styled properly in editor. Please visit the front view."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content Background:"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Layout"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Width"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Height"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Align"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slides Per View"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Space Between Slides (px)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Common"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Language Direction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slide Direction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Centered Slides"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Make active slide centered. Make sure have minimum slides per view"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Initial Slide"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Grab Cursor"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Effects"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Effect"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slides per view will 1 if the effect is 'fade, cube, flip, cards, or creative' effect."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Cross Fade"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Main Shadow"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Main Shadow Offset (px)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Main Shadow Scale"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Limit Rotation"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Limit edge slides rotation."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Depth (px)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate (deg)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Scale"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Stretch (px)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Effect Multiplier"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate Angle (deg)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Offset Distance (deg)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Preset"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slide Transition"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Duration/Speed (ms)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Timing Function"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Slide Shadows"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Translate X"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Translate Y"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Translate Z"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate X"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate Y"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rotate Z"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Opacity"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Shadow"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Origin"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Mode"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Loops enables continuous loop mode."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Rewind enable reverse slide navigation feature."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Enable"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Autoplay will not work in backend/editor."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Delay (ms)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Pause on Mouse Enter"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Disable on Interaction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Autoplay will not be disabled after user interactions (swipes), it will be restarted every time after interaction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Reverse Direction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Stop on Last Slide"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Autoplay will be stopped when it reaches last slide (has no effect in loop mode)"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Navigation"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Hide On Click"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Toggle Navigation visibility after click on Slider Container. Will not work in backend/editor."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Icon"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Icon Size"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Placement"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Position"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Pagination"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Toggle Pagination visibility after click on Slider Container. Will not work in backend/editor."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Type"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Clickable"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Dynamic Bullets"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Dynamic Main Bullets"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Side"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Radius"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Gap"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Background Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Scrollbar"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Draggable"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Snap on Release"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Snap slider position to slides when you release scrollbar"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Hide after Interaction"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Track Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Thumb Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Free Mode"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Free Mode allows the slider to move freely without snapping to slides."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Free Mode will not work in backend/editor."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Sticky"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Sticky enable snap to slides positions."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Momentum"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Enable to keep moving the slide for a while after you release it."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Momentum Ratio"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Keyboard Control"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Only in Viewport"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Control when currently in viewport."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Mousewheel Control"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Force to Axis"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Enable to force mousewheel swipes to axis. So in horizontal mode mousewheel will work only with horizontal mousewheel scrolling, and only with vertical scrolling in vertical mode."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Invert scrolling"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Invert scrolling direction."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Release on Edges"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Will release mousewheel event and allow page scrolling when swiper is on edge positions."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Sensitivity"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Padding"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Border Radius"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Max Width"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Text Align"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Horizontal Align"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Vertical Align"
+msgstr ""
+
+#: build/block.json
+msgctxt "block title"
+msgid "Swipe Slider"
+msgstr ""
+
+#: build/block.json
+msgctxt "block description"
+msgid "Make dynamic slider"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "carousel"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "content slider"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "multi background slider"
+msgstr ""

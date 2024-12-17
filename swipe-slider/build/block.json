@@ -1,0 +1,313 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "evb/slider",
+  "title": "Swipe Slider",
+  "description": "Make dynamic slider",
+  "version": "0.14",
+  "category": "widgets",
+  "keywords": [
+    "carousel",
+    "content slider",
+    "multi background slider"
+  ],
+  "textdomain": "swipe-slider",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    },
+    "slides": {
+      "type": "array",
+      "default": [
+        {
+          "background": "background: url('https://i.ibb.co/xL9ZL30/nature-with-water-drop-1.jpg') center center / cover no-repeat;",
+          "content": "",
+          "contentStyle": {
+            "color": "",
+            "bg": "background-color: #0000;"
+          }
+        },
+        {
+          "background": "background: url('https://i.ibb.co/KrDT86S/nature-with-water-drop-2.jpg') center center / cover no-repeat;",
+          "content": "",
+          "contentStyle": {
+            "color": "",
+            "bg": "background-color: #0000;"
+          }
+        },
+        {
+          "background": "background: url('https://i.ibb.co/TwXDZT1/nature-with-water-drop-3.jpg') center center / cover no-repeat;",
+          "content": "",
+          "contentStyle": {
+            "color": "",
+            "bg": "background-color: #0000;"
+          }
+        },
+        {
+          "background": "background: url('https://i.ibb.co/JtLPp1x/nature-with-water-drop-4.jpg') center center / cover no-repeat;",
+          "content": "",
+          "contentStyle": {
+            "color": "",
+            "bg": "background-color: #0000;"
+          }
+        },
+        {
+          "background": "background: url('https://i.ibb.co/ZGLgwPJ/nature-with-water-drop-5.jpg') center center / cover no-repeat;",
+          "content": "",
+          "contentStyle": {
+            "color": "",
+            "bg": "background-color: #0000;"
+          }
+        }
+      ]
+    },
+    "layout": {
+      "type": "object",
+      "default": {
+        "width": {
+          "desktop": "100%",
+          "tablet": "",
+          "mobile": ""
+        },
+        "height": {
+          "desktop": "350px",
+          "tablet": "",
+          "mobile": ""
+        },
+        "align": {
+          "desktop": "center",
+          "tablet": "",
+          "mobile": ""
+        }
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "breakpoints": {
+          "0": {
+            "slidesPerView": 1,
+            "spaceBetween": 15
+          },
+          "481": {
+            "slidesPerView": 2,
+            "spaceBetween": 20
+          },
+          "961": {
+            "slidesPerView": 3,
+            "spaceBetween": 30
+          }
+        },
+        "dir": "ltr",
+        "direction": "horizontal",
+        "centeredSlides": false,
+        "initialSlide": 0,
+        "grabCursor": false,
+        "slideToClickedSlide": false,
+        "effect": "slide",
+        "fadeEffect": {
+          "crossFade": false
+        },
+        "cubeEffect": {
+          "slideShadows": true,
+          "shadow": true,
+          "shadowOffset": 20,
+          "shadowScale": 0.94
+        },
+        "flipEffect": {
+          "slideShadows": true,
+          "limitRotation": true
+        },
+        "coverflowEffect": {
+          "slideShadows": true,
+          "depth": 100,
+          "rotate": 50,
+          "scale": 1,
+          "stretch": 0,
+          "modifier": 1
+        },
+        "cardsEffect": {
+          "slideShadows": true,
+          "rotate": true,
+          "perSlideOffset": 8,
+          "perSlideRotate": 2
+        },
+        "creativeEffect": {
+          "prev": {
+            "translate": [
+              0,
+              0,
+              0
+            ],
+            "rotate": [
+              0,
+              0,
+              0
+            ],
+            "opacity": 1,
+            "scale": 1,
+            "shadow": true,
+            "origin": "left bottom"
+          },
+          "next": {
+            "translate": [
+              0,
+              0,
+              0
+            ],
+            "rotate": [
+              0,
+              0,
+              0
+            ],
+            "opacity": 1,
+            "scale": 1,
+            "shadow": true,
+            "origin": "left bottom"
+          },
+          "limitProgress": 1,
+          "perspective": true,
+          "progressMultiplier": 1,
+          "shadowPerProgress": false
+        },
+        "speed": 300,
+        "timingFunction": "cubic-bezier(0.25, 0.1, 0.25, 1.0)",
+        "loop": {
+          "mode": "disabled",
+          "addBlankSlides": false,
+          "additionalSlides": 0
+        },
+        "autoplay": {
+          "enabled": false,
+          "delay": 3000,
+          "pauseOnMouseEnter": false,
+          "disableOnInteraction": true,
+          "reverseDirection": false,
+          "stopOnLastSlide": false
+        },
+        "navigation": {
+          "enabled": true,
+          "hideOnClick": false
+        },
+        "pagination": {
+          "enabled": true,
+          "hideOnClick": false,
+          "type": "bullets",
+          "clickable": true,
+          "dynamicBullets": false,
+          "dynamicMainBullets": 1,
+          "progressbarOpposite": false
+        },
+        "scrollbar": {
+          "enabled": false,
+          "draggable": false,
+          "hide": true,
+          "snapOnRelease": false
+        },
+        "freeMode": {
+          "enabled": false,
+          "sticky": false,
+          "momentum": true,
+          "momentumRatio": 1,
+          "minimumVelocity": 0.02,
+          "momentumVelocityRatio": 1,
+          "momentumBounce": true,
+          "momentumBounceRatio": 1
+        },
+        "keyboard": {
+          "enabled": false,
+          "onlyInViewport": true,
+          "pageUpDown": false
+        },
+        "mousewheel": {
+          "enabled": false,
+          "forceToAxis": false,
+          "invert": false,
+          "releaseOnEdges": false,
+          "sensitivity": 1,
+          "thresholdDelta": null,
+          "thresholdTime": null
+        },
+        "parallax": false,
+        "accessibility": {
+          "enabled": true
+        },
+        "zoom": {
+          "toggle": false,
+          "minRatio": 1,
+          "maxRatio": 3,
+          "limitToOriginalSize": false
+        }
+      }
+    },
+    "design": {
+      "type": "object",
+      "default": {
+        "slide": {
+          "padding": "",
+          "border": [],
+          "radius": ""
+        },
+        "content": {
+          "maxWidth": "100%",
+          "textAlign": "left",
+          "horizontalAlign": "start",
+          "verticalAlign": "start",
+          "padding": "15px 15px 15px 15px"
+        },
+        "creative": {
+          "preset": "default"
+        },
+        "navigation": {
+          "icon": "chevron",
+          "iconSize": 44,
+          "placement": "inside",
+          "position": "center",
+          "color": "#5465ff"
+        },
+        "pagination": {
+          "placement": "inside",
+          "side": "bottom",
+          "position": "center",
+          "width": "8px",
+          "height": "8px",
+          "radius": "50%",
+          "gap": "8px",
+          "color": "#333",
+          "background": "#fff"
+        },
+        "scrollbar": {
+          "position": "end",
+          "trackColor": "#0000001a",
+          "thumbColor": "#00000080"
+        }
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": [
+    "file:./editor.js",
+    "wp-api"
+  ],
+  "editorStyle": "file:./editor.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": [
+    "file:./view.js",
+    "wp-util"
+  ]
+}
