@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, multi background slider, interactive slider
 Requires at least: 6.5+
 Tested up to: 6.7.1
-Stable tag: 0.14
+Stable tag: 0.15
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -33,7 +33,7 @@ Swipe Slider is the perfect solution for:
 
 Download Swipe Slider today and take your website to the next level!
 
-##### 🌟 Unlock More Flexibility! Use the [Blocks to ShortCode](https://pluginenvision.com/plugins/blocks-to-shortcode/) plugin to convert blocks into shortcodes and embed them anywhere! 🚀
+**🌟 Unlock More Flexibility! Use the [Blocks to ShortCode](https://pluginenvision.com/plugins/blocks-to-shortcode/) plugin to **convert any blocks into shortcodes** and embed them anywhere! 🚀**
 
 
 = Swipe Slider Features =
@@ -150,6 +150,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 0.15 - 3rd Jan 25 =
+* Fix Navigation CSS.
 
 = 0.14 - 13th Dec 24 =
 * Update SDK.
