@@ -4,7 +4,7 @@
   "name": "evb/slider",
   "title": "Swipe Slider",
   "description": "Make dynamic slider",
-  "version": "0.15",
+  "version": "0.16",
   "category": "widgets",
   "keywords": [
     "carousel",
@@ -16,10 +16,6 @@
     "align": {
       "type": "string",
       "default": "wide"
-    },
-    "clientId": {
-      "type": "string",
-      "default": ""
     },
     "slides": {
       "type": "array",

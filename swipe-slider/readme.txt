@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, multi background slider, interactive slider
 Requires at least: 6.5+
 Tested up to: 6.7.1
-Stable tag: 0.15
+Stable tag: 0.16
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -150,6 +150,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 0.16 - 10th Jan 25 =
+* Fix slide content not showing.
 
 = 0.15 - 3rd Jan 25 =
 * Fix Navigation CSS.
