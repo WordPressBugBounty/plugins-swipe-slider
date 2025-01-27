@@ -1,10 +1,10 @@
 === Swipe Slider - Make dynamic slider with solid, gradient, or image background ===
 Contributors: pluginenvision, freemius
 Donate link: https://www.buymeacoffee.com/pluginenvision
-Tags: block, carousel, content slider, multi background slider, interactive slider
+Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
 Tested up to: 6.7.1
-Stable tag: 0.16
+Stable tag: 0.17
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -151,6 +151,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 0.17 - 27th Jan 25 =
+* Update SDK.
+
 = 0.16 - 10th Jan 25 =
 * Fix slide content not showing.
 
@@ -185,7 +188,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Slide and Content Style
 
 = 0.03 - 27th Jul 24 =
-* Add Multiple Slider Options
+* Add Multiple Slider Options.
 
 = 0.02 - 27th May 24 =
 * Add Slides per view and Space between.

@@ -19,13 +19,14 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'width' => [],
 				'height' => [],
 				'fill' => [],
-				'class' => [],
+				'class' => []
 			],
 			'path' => [
 				'd' => [],
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'rect' => [
 				'x' => [],
@@ -35,6 +36,7 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'circle' => [
 				'cx' => [],
@@ -43,6 +45,7 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'ellipse' => [
 				'cx' => [],
@@ -52,6 +55,7 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'line' => [
 				'x1' => [],
@@ -60,22 +64,26 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'y2' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'polyline' => [
 				'points' => [],
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'polygon' => [
 				'points' => [],
 				'fill' => [],
 				'stroke' => [],
 				'stroke-width' => [],
+				'class' => []
 			],
 			'g' => [
 				'fill' => [],
 				'transform' => [],
+				'class' => []
 			],
 			'title' => [],
 			'desc' => [],
@@ -85,6 +93,7 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 				'height' => [],
 				'frameborder' => [],
 				'allowfullscreen' => [],
+				'class' => []
 			],
 		], $allowedposttags );
 	}
