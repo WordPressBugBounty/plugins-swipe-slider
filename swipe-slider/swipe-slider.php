@@ -3,7 +3,7 @@
  * Plugin Name:			Swipe Slider
  * Plugin URI:			https://pluginenvision.com/plugins/swipe-slider
  * Description:			Make dynamic slider with solid, gradient, or image background.
- * Version:				0.17
+ * Version:				0.18
  * Requires at least:	6.5
  * Requires PHP:		7.2
  * Author:				Plugin Envision
@@ -29,7 +29,7 @@ if( function_exists( 'evss_fs' ) ){
 		}
 	} );
 }else{
-	define( 'EVSS_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '0.17' );
+	define( 'EVSS_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '0.18' );
 	define( 'EVSS_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'EVSS_DIR_PATH', plugin_dir_path( __FILE__ ) );
 	define( 'EVSS_WP_PLUG', EVSS_FREE_SLUG === plugin_basename( __FILE__ ) );
@@ -60,7 +60,6 @@ if( function_exists( 'evss_fs' ) ){
 				add_action( 'wp_ajax_nopriv_evssWusulDekho', [$this, 'evssWusulDekho'] );
 				add_action( 'admin_init', [$this, 'registerSettings'] );
 				add_action( 'rest_api_init', [$this, 'registerSettings']);
-				add_action( 'wp_ajax_renderBlocks', [$this, 'renderBlocks'] );
 			}
 
 			function onInit(){
@@ -97,27 +96,6 @@ if( function_exists( 'evss_fs' ) ){
 				}
 
 				wp_send_json_success( [ 'wusul' => evssWusul() ] );
-			}
-
-			function renderBlocks(){
-				$nonce = sanitize_text_field( $_POST['_wpnonce'] ) ?? null;
-				
-				if( !wp_verify_nonce( $nonce, 'wp_ajax' )){
-					wp_send_json_error( 'Invalid Request' );
-				}
-
-				if( !$_POST['_content'] ){
-					wp_send_json_success( '' );
-				}
-
-				$blocks = parse_blocks( $_POST['_content'] );
-				$slideContent = '';
-
-				foreach ( $blocks as $block ) {
-					$slideContent .= render_block( $block );
-				}
-
-				wp_send_json_success( $slideContent );
 			}
 		}
 		new EVSSPlugin();

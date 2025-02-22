@@ -3,8 +3,8 @@ Contributors: pluginenvision, freemius
 Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
-Tested up to: 6.7.1
-Stable tag: 0.17
+Tested up to: 6.7.2
+Stable tag: 0.18
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -151,16 +151,19 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
-= 0.17 - 27th Jan 25 =
+= 0.18 - 22th February 25 =
+* Optimize.
+
+= 0.17 - 27th January 25 =
 * Update SDK.
 
-= 0.16 - 10th Jan 25 =
+= 0.16 - 10th January 25 =
 * Fix slide content not showing.
 
-= 0.15 - 3rd Jan 25 =
+= 0.15 - 3rd January 25 =
 * Fix Navigation CSS.
 
-= 0.14 - 13th Dec 24 =
+= 0.14 - 13th December 24 =
 * Update SDK.
 
 = 0.11 - 6th November 24 =
@@ -185,7 +188,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Add Columns, Grid, Group in content
 
 = 0.04 - 4th Aug 24 =
-* Slide and Content Style
+* Slide and Content Style.
 
 = 0.03 - 27th Jul 24 =
 * Add Multiple Slider Options.
