@@ -4,12 +4,17 @@
   "name": "evb/slider",
   "title": "Swipe Slider",
   "description": "Make dynamic slider",
-  "version": "0.18",
+  "version": "0.19",
   "category": "widgets",
   "keywords": [
     "carousel",
     "content slider",
-    "multi background slider"
+    "multi background slider",
+    "image slider",
+    "responsive slider",
+    "touch slider",
+    "media carousel",
+    "interactive slider"
   ],
   "textdomain": "swipe-slider",
   "attributes": {
