@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
 Tested up to: 6.8.1
-Stable tag: 0.19
+Stable tag: 0.20
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -151,6 +151,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 0.20 - 17th May 25 =
+* Redesign Preset import system.
+* Update SDK
+
 = 0.19 - 3rd March 25 =
 * Improve visibility on search
 
@@ -211,40 +215,3 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 - https://i.ibb.co/TwXDZT1/nature-with-water-drop-3.jpg
 - https://i.ibb.co/JtLPp1x/nature-with-water-drop-4.jpg
 - https://i.ibb.co/ZGLgwPJ/nature-with-water-drop-5.jpg
-
-= Patterns Images =
-https://i.ibb.co/kMymm0h/strawberry.png
-https://i.ibb.co/WK3wGtt/orange.png
-https://i.ibb.co/FhJ9MvV/shake.png
-https://i.ibb.co/8PcgCtc/apple.png
-https://i.ibb.co/WK3wGtt/orange.png
-https://i.ibb.co/q0YD3Nx/vegetables-8-wide
-https://i.ibb.co/QjYsz3y/vegetables-7-wide
-https://i.ibb.co/cTPtrYt/vegetables-6-wide
-https://i.ibb.co/0qDm1dp/vegetables-3-wide
-https://i.ibb.co/ysQmK1X/vegetables-10-wide
-https://i.ibb.co/6yVFrpQ/hotel-2.png
-https://i.ibb.co/ZWxS1xF/hotel-3.png
-https://i.ibb.co/mN8tjr2/hotel-5.png
-https://i.ibb.co/fqNMy81/hotel-7.png
-https://i.ibb.co/6B6H7hq/hotel-8.png
-https://i.ibb.co/ph4sPS4/sea-1.png
-https://i.ibb.co/ZgQLpjm/sea-3.png
-https://i.ibb.co/5r83N8G/sea-4.png
-https://i.ibb.co/BBjc33X/sea-5.png
-https://i.ibb.co/LzG3Qwh/sea-10.png
-https://i.ibb.co/LQSFS7j/rain-1.png
-https://i.ibb.co/ygLF63X/rain-3.png
-https://i.ibb.co/8YKK9fC/rain-8.png
-https://i.ibb.co/qkg8k0N/rain-9.png
-https://i.ibb.co/4tB8fGg/rain-10.png
-https://i.ibb.co/G57FqHM/burger-1.png
-https://i.ibb.co/sRdx09Y/burger-3.png
-https://i.ibb.co/k4Tnypk/burger-4.png
-https://i.ibb.co/HqsbGNT/burger-7.png
-https://i.ibb.co/Lhnhh3m/burger-8.png
-https://i.ibb.co/TbZsnHS/interior-4.png
-https://i.ibb.co/9T63Wy0/interior-7.png
-https://i.ibb.co/sKyVdxQ/interior-8.png
-https://i.ibb.co/Y7WbVG5/interior-9.png
-https://i.ibb.co/7k4MYdp/interior-10.png

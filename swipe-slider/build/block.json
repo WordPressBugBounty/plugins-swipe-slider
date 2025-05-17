@@ -4,7 +4,7 @@
   "name": "evb/slider",
   "title": "Swipe Slider",
   "description": "Make dynamic slider",
-  "version": "0.19",
+  "version": "0.20",
   "category": "widgets",
   "keywords": [
     "carousel",
@@ -26,7 +26,7 @@
       "type": "array",
       "default": [
         {
-          "background": "background: url('https://i.ibb.co/xL9ZL30/nature-with-water-drop-1.jpg') center center / cover no-repeat;",
+          "background": "background: url(https://i.ibb.co/xL9ZL30/nature-with-water-drop-1.jpg) center center / cover no-repeat;",
           "content": "",
           "contentStyle": {
             "color": "",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "background": "background: url('https://i.ibb.co/KrDT86S/nature-with-water-drop-2.jpg') center center / cover no-repeat;",
+          "background": "background: url(https://i.ibb.co/KrDT86S/nature-with-water-drop-2.jpg) center center / cover no-repeat;",
           "content": "",
           "contentStyle": {
             "color": "",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "background": "background: url('https://i.ibb.co/TwXDZT1/nature-with-water-drop-3.jpg') center center / cover no-repeat;",
+          "background": "background: url(https://i.ibb.co/TwXDZT1/nature-with-water-drop-3.jpg) center center / cover no-repeat;",
           "content": "",
           "contentStyle": {
             "color": "",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "background": "background: url('https://i.ibb.co/JtLPp1x/nature-with-water-drop-4.jpg') center center / cover no-repeat;",
+          "background": "background: url(https://i.ibb.co/JtLPp1x/nature-with-water-drop-4.jpg) center center / cover no-repeat;",
           "content": "",
           "contentStyle": {
             "color": "",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "background": "background: url('https://i.ibb.co/ZGLgwPJ/nature-with-water-drop-5.jpg') center center / cover no-repeat;",
+          "background": "background: url(https://i.ibb.co/ZGLgwPJ/nature-with-water-drop-5.jpg) center center / cover no-repeat;",
           "content": "",
           "contentStyle": {
             "color": "",

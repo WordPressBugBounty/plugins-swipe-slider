@@ -3,7 +3,7 @@
  * Plugin Name:			Swipe Slider
  * Plugin URI:			https://pluginenvision.com/plugins/swipe-slider
  * Description:			Make dynamic slider with solid, gradient, or image background.
- * Version:				0.19
+ * Version:				0.20
  * Requires at least:	6.5
  * Requires PHP:		7.2
  * Author:				Plugin Envision
@@ -16,40 +16,27 @@
 
 if( !defined( 'ABSPATH' ) ) { exit; }
 
-define( 'EVSS_FREE_SLUG', 'swipe-slider/swipe-slider.php' );
-define( 'EVSS_PRO_SLUG', 'swipe-slider-pro/swipe-slider.php' );
-
 if( function_exists( 'evss_fs' ) ){
-	register_activation_hook( __FILE__, function(){
-		if( is_plugin_active( EVSS_FREE_SLUG ) ){
-			deactivate_plugins( EVSS_FREE_SLUG );
-		}
-		if( is_plugin_active( EVSS_PRO_SLUG ) ){
-			deactivate_plugins( EVSS_PRO_SLUG );
-		}
-	} );
+	evss_fs()->set_basename( false, __FILE__ );
 }else{
 	define( 'EVSS_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '0.19' );
 	define( 'EVSS_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'EVSS_DIR_PATH', plugin_dir_path( __FILE__ ) );
-	define( 'EVSS_WP_PLUG', EVSS_FREE_SLUG === plugin_basename( __FILE__ ) );
-	define( 'EVSS_FS_PLUG', EVSS_PRO_SLUG === plugin_basename( __FILE__ ) );
+	define( 'EVSS_HAS_FS', file_exists( EVSS_DIR_PATH . 'vendor/freemius/start.php' ) );
 
-	if( EVSS_FS_PLUG ){
+	if( EVSS_HAS_FS ){
 		require_once EVSS_DIR_PATH . 'includes/premium.php';
-
-		if( function_exists( 'evss_fs' ) ){
-			evss_fs()->set_basename( false, __FILE__ );
-		}
 	}
 
 	function evssWusul(){
-		if( EVSS_FS_PLUG ){
+		if( EVSS_HAS_FS ){
 			return evss_fs()->can_use_premium_code();
 		}else{
 			return false;
 		}
 	}
+
+	require_once 'includes/DesignLibrary/DesignLibrary.php';
 
 	if( !class_exists( 'EVSSPlugin' ) ){
 		class EVSSPlugin{
@@ -69,7 +56,7 @@ if( function_exists( 'evss_fs' ) ){
 			function pluginActionLinks ( $links ) {
 				$acLinks = [];
 
-				if( EVSS_WP_PLUG ){
+				if( !evssWusul() ){
 					$acLinks[] = "<a href='https://pluginenvision.com/plugins/swipe-slider/#plans' target='_blank' style='font-size: 1.1em; font-weight: bold; color: #5465ff; text-shadow: 1px 1px 1px #eee;'>Get Pro</a>";
 				}
 
@@ -83,7 +70,7 @@ if( function_exists( 'evss_fs' ) ){
 						'schema'		=> [ 'type' => 'string' ]
 					],
 					'type'				=> 'string',
-					'default'			=> wp_json_encode( [ 'nonce' => wp_create_nonce( 'wp_ajax' ) ] ),
+					'default'			=> wp_json_encode( [ 'nonce' => wp_create_nonce( 'evss_ajax' ) ] ),
 					'sanitize_callback'	=> 'sanitize_text_field'
 				] );
 			}
@@ -91,7 +78,7 @@ if( function_exists( 'evss_fs' ) ){
 			function evssWusulDekho(){
 				$nonce = sanitize_text_field( $_POST['_wpnonce'] ) ?? null;
 				
-				if( !wp_verify_nonce( $nonce, 'wp_ajax' )){
+				if( !wp_verify_nonce( $nonce, 'evss_ajax' )){
 					wp_send_json_error( 'Invalid Request' );
 				}
 
