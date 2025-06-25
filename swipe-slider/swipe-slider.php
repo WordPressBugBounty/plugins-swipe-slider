@@ -3,7 +3,7 @@
  * Plugin Name:			Swipe Slider
  * Plugin URI:			https://pluginenvision.com/plugins/swipe-slider
  * Description:			Make dynamic slider with solid, gradient, or image background.
- * Version:				0.20
+ * Version:				0.21
  * Requires at least:	6.5
  * Requires PHP:		7.2
  * Author:				Plugin Envision
@@ -45,8 +45,6 @@ if( function_exists( 'evss_fs' ) ){
 				add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), [$this, 'pluginActionLinks'] );
 				add_action( 'wp_ajax_evssWusulDekho', [$this, 'evssWusulDekho'] );
 				add_action( 'wp_ajax_nopriv_evssWusulDekho', [$this, 'evssWusulDekho'] );
-				add_action( 'admin_init', [$this, 'registerSettings'] );
-				add_action( 'rest_api_init', [$this, 'registerSettings']);
 			}
 
 			function onInit(){
@@ -63,22 +61,10 @@ if( function_exists( 'evss_fs' ) ){
 				return array_merge( $links, $acLinks );
 			}
 
-			function registerSettings(){
-				register_setting( 'evssUtils', 'evssUtils', [
-					'show_in_rest'		=> [
-						'name'			=> 'evssUtils',
-						'schema'		=> [ 'type' => 'string' ]
-					],
-					'type'				=> 'string',
-					'default'			=> wp_json_encode( [ 'nonce' => wp_create_nonce( 'evss_ajax' ) ] ),
-					'sanitize_callback'	=> 'sanitize_text_field'
-				] );
-			}
-
 			function evssWusulDekho(){
-				$nonce = sanitize_text_field( $_POST['_wpnonce'] ) ?? null;
-				
-				if( !wp_verify_nonce( $nonce, 'evss_ajax' )){
+				$nonce = sanitize_text_field( wp_unslash( $_POST['_wpnonce'] ) ) ?? null;
+
+				if( !wp_verify_nonce( $nonce, 'wp_rest' )){
 					wp_send_json_error( 'Invalid Request' );
 				}
 

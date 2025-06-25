@@ -4,7 +4,7 @@
   "name": "evb/slider",
   "title": "Swipe Slider",
   "description": "Make dynamic slider",
-  "version": "0.20",
+  "version": "0.21",
   "category": "widgets",
   "keywords": [
     "carousel",
@@ -14,7 +14,10 @@
     "responsive slider",
     "touch slider",
     "media carousel",
-    "interactive slider"
+    "interactive slider",
+    "logo carousel",
+    "logo slider",
+    "card slider"
   ],
   "textdomain": "swipe-slider",
   "attributes": {
@@ -302,7 +305,7 @@
   },
   "editorScript": [
     "file:./editor.js",
-    "wp-api"
+    "wp-api-request"
   ],
   "editorStyle": "file:./editor.css",
   "style": "file:./view.css",

@@ -19,7 +19,7 @@ if( !class_exists('DesignLibrary') ){
 		function evssDesignLibraryTaxonomies(){
 			$nonce = sanitize_text_field( wp_unslash( $_POST['_wpnonce'] ) ) ?? null;
 
-			if( !wp_verify_nonce( $nonce, 'evss_ajax' )){
+			if( !wp_verify_nonce( $nonce, 'wp_rest' )){
 				wp_send_json_error( 'Invalid Request' );
 			}
 
@@ -31,7 +31,7 @@ if( !class_exists('DesignLibrary') ){
 		function evssDesignLibraryTemplates(){
 			$nonce = sanitize_text_field( wp_unslash( $_POST['_wpnonce'] ?? null ) );
 
-			if( !wp_verify_nonce( $nonce, 'evss_ajax' )){
+			if( !wp_verify_nonce( $nonce, 'wp_rest' )){
 				wp_send_json_error( 'Invalid Request' );
 			}
 
@@ -53,7 +53,7 @@ if( !class_exists('DesignLibrary') ){
 		function evssDesignLibraryTemplateImport(){
 			$nonce = sanitize_text_field( wp_unslash( $_POST['_wpnonce'] ?? null ) );
 
-			if( !wp_verify_nonce( $nonce, 'evss_ajax' )){
+			if( !wp_verify_nonce( $nonce, 'wp_rest' )){
 				wp_send_json_error( 'Invalid Request' );
 			}
 

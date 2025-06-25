@@ -99,7 +99,11 @@ if( !function_exists( 'evssAllowedHTML' ) ){
 	}
 }
 ?>
-<div <?php echo get_block_wrapper_attributes([ 'class' => "align$align" ]); ?> id='<?php echo esc_attr( $id ); ?>' data-attributes='<?php echo esc_attr( wp_json_encode( $newAttr ) ); ?>'>
+<div
+	<?php echo get_block_wrapper_attributes( [ 'class' => "align$align" ] ); ?>
+	id='<?php echo esc_attr( $id ); ?>'
+	data-attributes='<?php echo esc_attr( wp_json_encode( $newAttr ) ); ?>'
+>
 	<div id='<?php echo esc_attr( $id ); ?>-contents' style='display: none;'>
 		<?php foreach ( $attributes['slides'] as $index => $slide ) {
 			$blocks = parse_blocks( $slide['content'] );
