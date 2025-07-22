@@ -3,7 +3,7 @@ Contributors: pluginenvision, freemius
 Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
-Tested up to: 6.8.2
+Tested up to: 6.8.1
 Stable tag: 0.21
 Requires PHP: 7.2
 License: GPLv3 or later
