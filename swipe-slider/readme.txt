@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
 Tested up to: 6.8.1
-Stable tag: 0.21
+Stable tag: 0.22
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -150,6 +150,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 0.22 - 6th August 25 =
+* Fix Import Presets/Patterns layout issue.
 
 = 0.21 - 25th June 25 =
 * Fix issue.

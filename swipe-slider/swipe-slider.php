@@ -3,7 +3,7 @@
  * Plugin Name:			Swipe Slider
  * Plugin URI:			https://pluginenvision.com/plugins/swipe-slider
  * Description:			Make dynamic slider with solid, gradient, or image background.
- * Version:				0.21
+ * Version:				0.22
  * Requires at least:	6.5
  * Requires PHP:		7.2
  * Author:				Plugin Envision
