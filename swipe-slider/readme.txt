@@ -13,7 +13,7 @@ Swipe through beautiful sliders! Add images, or text. Choose solid, gradient, or
 
 == Description ==
 
-### 🤝 **[See Demos](https://pluginenvision.com/plugins/swipe-slider/) | [Buy Now](https://pluginenvision.com/plugins/swipe-slider/#plans)** 🤝
+### 🤝 [**See Demos**](https://pluginenvision.com/plugins/swipe-slider/) | [**Buy Now**](https://pluginenvision.com/plugins/swipe-slider/#plans) 🤝
 
 Transform your website with Swipe Slider, the all-in-one WordPress plugin for creating stunning & interactive sliders in minutes!
 
@@ -165,7 +165,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Improve visibility on search.
 
 = 0.18 - 22th February 25 =
-* Optimize.
+* Optimize the plugin.
 
 = 0.17 - 27th January 25 =
 * Update SDK.
