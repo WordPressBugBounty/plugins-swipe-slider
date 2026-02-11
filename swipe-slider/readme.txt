@@ -3,13 +3,13 @@ Contributors: pluginenvision, freemius
 Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, carousel, content slider, responsive slider, interactive slider
 Requires at least: 6.5+
-Tested up to: 6.8.1
+Tested up to: 6.9
 Stable tag: 0.22
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Swipe through beautiful sliders! Add images, or text. Choose solid, gradient, or image backgrounds. Effortless & mobile-friendly!
+Swipe through beautiful sliders! Add images or text. Choose solid, gradient, or image backgrounds. Effortless & mobile-friendly!
 
 == Description ==
 
@@ -19,17 +19,17 @@ Transform your website with Swipe Slider, the all-in-one WordPress plugin for cr
 
 Effortlessly swipe through captivating images, or content. Swipe Slider empowers you to design & customize your sliders with ease.
 
-Choose from solid, gradient, or image backgrounds to perfectly match your website's aesthetic. Insert any content you desire - text, buttons, forms, and more!
+Choose from solid, gradient, or image backgrounds to perfectly match your website's aesthetic. Insert any content you desire, such as text, buttons, forms, and more!
 
-Built for speed & mobile responsiveness, Swipe Slider ensures your website delivers a flawless user experience on any device.
+Built for speed and mobile responsiveness, Swipe Slider ensures your website delivers a flawless user experience on any device.
 
 Boost engagement with interactive features and showcase your content in a visually compelling way.
 
-Swipe Slider is the perfect solution for:
+**Swipe Slider is the perfect solution for:**
 
-- **Photographers & artists**: Showcase your portfolio with stunning visuals.
-- **Bloggers & storytellers**: Captivate your audience with engaging content.
-- **Businesses & marketers**: Make a lasting impression with interactive sliders.
+- **Photographers & Artists**: Showcase your portfolio with stunning visuals.
+- **Bloggers & Storytellers**: Captivate your audience with engaging content.
+- **Businesses & Marketers**: Make a lasting impression with interactive sliders.
 
 Download Swipe Slider today and take your website to the next level!
 
